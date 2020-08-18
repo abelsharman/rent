@@ -1,0 +1,256 @@
+main{
+	margin-top: 2.5%
+}
+.main1{
+	float: left;
+	width: 18%;
+	margin-left: 12%;
+}
+.main2{
+	float: right;
+	margin-right: 4%;
+	width: 63%;
+}
+.for_cities{
+	background-color: rgb(55, 157, 235);
+	border-radius: 7px;
+	margin-bottom: 7%;
+	font-size: 1.1em;
+}
+.for_cities1{
+	padding: 12px 8px;
+	color: white;
+	font-weight: bold;
+}
+.city1{
+	transition: 0.5s color;
+	border-bottom: 1px solid rgb(0, 127, 235);
+}
+.city1:hover{
+	color: rgb(240,185, 60);
+}
+.city1 p{
+	margin-left: 5%
+}
+.city1 span{
+	font-weight: bold;
+	position: relative;
+	left: 60%;
+	font-size: 1.15em
+}
+.city2 p{
+	line-height: 0.7;
+	transition: 0.5s color;
+	display: block
+}
+.city2 p:hover{
+	color: rgb(240,185, 60);
+}
+.city2 span{
+	margin-left: 2%
+}
+.for_categories1 p{
+	display: block;
+	color: rgb(255,255,255);
+	line-height: 0.6;
+	font-size: 1.2em;
+	transition: 0.5s color;
+}
+.for_categories1 p:hover{
+	color: rgb(240,185, 60);
+}
+.for_sort1 p{
+	font-size: 1.1em;
+	user-select: none;
+	vertical-align: middle;
+}
+.for_sort1 input{
+	width: 24px;
+	vertical-align:middle;
+	height: 24px;
+	background: none;
+	transition: 0.5s background;
+	position: relative
+}
+.for_sort1 input:checked:before{
+	content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: rgb(240,185, 60)
+}
+.for_input img{
+	width: 4.0%;
+	height: 36px;
+	padding: 10px;
+	position: relative;
+	left: -2%;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: rgb(55, 157, 235); 
+	vertical-align: middle
+}
+
+.for_input input{
+	width: 44%;
+	color: grey;
+	padding-left: 10px;
+	border-radius: 10px;
+	vertical-align: middle;
+	border: 5px solid rgb(240,185, 60);
+	border-right: none;
+	font-size: 1.3em;
+	height: 44px;
+}
+
+@media only screen and (max-width: 1920px) {
+	html{
+		width: 1920px;
+	}
+	.main1{
+		margin-left: 10%;
+		width: 13%;
+	}
+	.main2{
+		width: 69%;
+		margin-right: 7%;
+	}
+	.for_input img{
+		width: 3.0%;
+	}
+	
+	.for_input input{
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 1440px) {
+	html{
+		width: 1440px;
+	}
+	.main1{
+		width: 18%;
+		margin-left: 14%;
+	}
+	.main2{
+		margin-right: 4%;
+		width: 63%;
+	}
+	.for_input img{
+		width:4.0%;
+	}
+	
+	.for_input input{
+		width: 44%;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	html{
+		width: 1366px;
+	}
+	.main1{
+		width: 19%;
+		margin-left: 14%;
+	}
+	.main2{
+		margin-right: 4%;
+		width: 60%;
+	}
+	.for_input img{
+		width:4.5%;
+	}
+	.for_input input{
+		width: 44%;
+	}
+	
+}
+	
+@media only screen and (max-width: 1280px) {
+	html{
+		width: 1280px;
+	}
+	.main1{
+		width: 20%;
+		margin-left: 14%;
+	}
+	.main2{
+		margin-right: 4%;
+		width: 60%;
+	}
+	.for_input img{
+		width:4.5%;
+	}
+	.for_input input{
+		width: 44%;
+	}
+	
+}
+@media only screen and (max-width: 1024px) {
+	html{
+		width: 1024px
+	}
+	.main1{
+		width: 25%;
+		margin-left: 7%;
+	}
+	.main2{
+		margin-right: 4%;
+		width: 60%;
+	}
+	.for_input img{
+		width:6%;
+	}
+	.for_input input{
+		width: 44%;
+	}
+	
+}
+@media only screen and (max-width: 800px) {
+	html{
+		width: 800px
+	}
+	.main1{
+		width: 29%;
+		margin-left: 4%;
+	}
+	.main2{
+		margin-right: 4%;
+		width: 60%;
+	}
+	.for_input img{
+		width:8%;
+	}
+	.for_input input{
+		width: 44%;
+	}
+	.for_cities{
+		font-size: 1em;
+	}
+}	
+@media only screen and (max-width: 440px) {
+	html{
+		width: 100%
+	}
+	.main1{
+
+		width: 29%;
+		margin-left: 4%;
+	}
+	.main2{
+		margin-right: 4%;
+		width: 60%;
+	}
+	.for_input img{
+		width:8%;
+	}
+	.for_input input{
+		width: 44%;
+	}
+	.for_cities{
+		font-size: 0.8em;
+	}
+}	
+
+	
+	
+	
